@@ -1,0 +1,35 @@
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.answer {
+  border-radius: 50px;
+  width: 120px;
+  background-color: red
+}
+
+.questions{ border-radius: 50px;
+  background-color: lightyellow;
+  color: black;
+
+}
+.kestion {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+.réponse {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
